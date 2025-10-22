@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail
 rm -rf getting-started
 git clone https://github.com/docker/getting-started.git
 
